@@ -15,7 +15,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script type="text/javascript" src="{% static 'js/materialize.js' %}"></script>
 
-    <script>var whTooltips = { colorLinks: true, iconizeLinks: true, renameLinks: true };</script>
+    <script>var whTooltips = { colorLinks: true, iconizeLinks: true, iconSize: "small", renameLinks: true, "hide": { "extra": true } };</script>
     <script src="https://wow.zamimg.com/widgets/power.js"></script>
 
     <!-- Template for javascript to display each raider card -->
@@ -76,9 +76,8 @@
                         <a href="/dkp-system">DKP System Info</a>
                         <a href="/faq">FAQ</a>
                         <label class="right" for="darkmode">
-                            <input type="checkbox" onchange="checkMode()" id="darkmode"
-                                class="filled-in filter-darkmode" {{request.session.darkmode}}
-                                name="filter-darkmode" />
+                            <input type="checkbox" id="darkmode" class="filled-in filter-darkmode"
+                                {{request.session.darkmode}} name="filter-darkmode" />
                             <span style="color:white">DARK MODE</span>
                         </label>
                     </nav>

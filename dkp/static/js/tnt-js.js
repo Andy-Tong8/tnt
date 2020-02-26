@@ -57,6 +57,6 @@ function lightmode() {
     $(".loot-config-list").removeClass("dark-mode");
     $(".dkp-count").removeClass("dark-mode");
 }
-//check the mode on page load
+//check the mode
 checkMode();
 

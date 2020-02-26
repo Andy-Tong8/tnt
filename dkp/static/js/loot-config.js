@@ -38,6 +38,7 @@ request.onload = function() {
     populateHeader(raiders);
     showRaiders(raiders);
     filterByClass();
+    checkMode();
 };
 
 function populateHeader(jsonObj) {
@@ -134,6 +135,7 @@ function showRaiders(jsonObj) {
 
 // Saving Check Box Status w/o session
 $(document).ready(function() {
+    console.log("called this from document.ready in lootconfig-js");
     $('a[href="#uncheck"]').click(function() {
         $(".filter-class-warrior").prop("checked", false);
         $(".filter-class-priest").prop("checked", false);
