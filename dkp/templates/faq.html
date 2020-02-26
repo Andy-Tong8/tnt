@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>TnT FAQ</title>
+    {% load static %}
+    <link rel="shortcut icon" type="image/x-icon" href="{% static 'images/favicon.ico'  %}" />
+    <link rel="stylesheet" href="{% static 'css/materialize.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/tnt-base.css' %}" />
+    <link href="https://fonts.googleapis.com/css?family=Oxygen:300,400|Sintony:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="{% static 'js/materialize.js' %}"></script>
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="global-nav container">
+            <div class="row">
+                <div class="col l1 s2">
+                    <div class="logo"></div>
+                </div>
+                <div class="col l11 s10">
+                    <nav class="main-nav">
+                        <a href="/">Loot Config</a>
+                        <a href="/dkp-system">DKP System Info</a>
+                        <a class="active" href="/faq">FAQ</a>
+                        <label class="right" for="darkmode">
+                            <input type="checkbox" onchange="checkMode()" id="darkmode"
+                                class="filled-in filter-darkmode" {{request.session.darkmode}}
+                                name="filter-darkmode" />
+                            <span style="color:white">DARK MODE</span>
+                        </label>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div><!-- end header -->
+
+    <div id="sh-loot-config" class="section section-header">
+        <div class="container">
+            <div class="row">
+                <div class="col l12">
+                    <h3 class="center-align">TNT FAQ</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="container">
+
+            <div class="row">
+                <div class="col l12 m12 s12">
+                    <h4>Why should I join your guild?</h4>
+                    <p>If you’ve seen our recruitment blurb on the Whitemane discord, you’ve seen the following
+                        statement from us: “Our aim is to compete in all aspects of Classic, but to maintain a chill and
+                        welcoming atmosphere while doing so.” Our guild is comprised of both old-school and new-school
+                        top-tier raiders who are not interested in taking all of the fun out of this game by running 30
+                        warriors and min-maxing it to death. We still plan on being extremely competitive in both PvE
+                        and PvP, intending on clearing each raid tier the same week it launches and having multiple R14s
+                        in PvP - we’ll just do it while having a good time. On top of that we’ve cooked up what we
+                        believe to be a really innovative loot system that allows players to gear for both PvE and PvP
+                        in a fair way. All of these factors come together to make <strong>&lt;Theres No
+                            Tomorrow&gt;</strong> the only guild any of us want to be a part of, and we welcome you and
+                        all of your friends to come see for yourselves :).</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col l12 m12 s12">
+                    <h4>What is the difference between a Core Raider and a Reserve Raider?</h4>
+                    <p>There are only two differences between Core and Reserve raiders. Core raiders have a guaranteed
+                        raid invite, whereas Reserve raiders do not. And secondly, Core raiders get precedence on
+                        “Priority” loot over Reserve raiders - more details regarding the specifics of that can be found
+                        on our <a href="/dkp-system">DKP System info page</a>.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col l12 m12 s12">
+                    <h4>How can I become a Reserve Raider?</h4>
+                    <p>If you joined us as a social member and are now interested in becoming a Reserve raider, your
+                        first step is to reach out to one of the Officers. There is no explicit “checklist” one can
+                        simply cross out to become a Reserve raider. Instead, your promotion is going to be based on a
+                        combination of the following criteria:</p>
+                    <ul>
+                        <li>Can you consistently make raid times (it’s OK to miss a raid here or there)</li>
+                        <li>Can you commit to being online and ready for raid on raid nights even if you know you might
+                            not get in?</li>
+                        <li>Do you have a good attitude?</li>
+                        <li>Do you put in effort?</li>
+                        <ul>
+                            <li>Do you know your rotation and play your class at a high level?</li>
+                            <li>Do you put in the time to farm your pre-raid BiS?</li>
+                            <li>Do you have enchants on your gear?</li>
+                            <li>Even though consumables aren’t required on our raids, do you bring them anyway?</li>
+                            <li>Have you been trying to PuG?</li>
+                        </ul>
+                        <li>Are you active?</li>
+                        <li>How long have you been with the guild?</li>
+                        <li>How many Reserve raiders of your class do we currently have?</li>
+                    </ul>
+                    <p>While we don’t have a specific hard cap on the number of Reserve raiders we will maintain of any
+                        given class, we don’t wish to promote every player in our guild to Reserve. The title of
+                        “Reserve Raider” in our guild carries weight. Reserve Raiders are the first players invited if
+                        our Core 40 aren’t online, and our Loot System is designed such that Reserve raiders can still
+                        contend with Core raiders for Lottery loot. Ideally, we don’t want to designate more than 2-3
+                        Reserve Raiders for any one class. If you demonstrate a majority of the desired traits above and
+                        your class doesn’t currently have 2 or more Reserve raiders, then we’d have no reason to not
+                        promote you to Reserve.</p>
+
+                    <p>However, if you demonstrate a majority of the desired traits above and your class does have 2-3
+                        Reserve raiders already, then the Officers will need to evaluate whether or not one of the
+                        current Reserve raiders should be demoted in favor of you, whether to carve out an exception and
+                        bring you in as Reserve anyway even though there are already 2-3 Reserve raiders for your class,
+                        or whether we simply can’t take any more of your class as Reserve at the present time. Either
+                        way, this case will require a decision from the Officers.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col l12 m12 s12">
+                    <h4>How can I be promoted from Reserve to Core?</h4>
+                    <p>In a similar vein to the above explanation regarding Reserve raiders, there is no explicit
+                        “checklist” for being promoted from Reserve to Core. Since we guarantee our Core Raiders a raid
+                        invite, we cannot have more than 40 Core Raiders at any one time or else drama would ensue.
+                        Because of this, we can only promote players from Reserve to Core as Core positions open up.</p>
+
+                    <p>If a Core spot opens up for your specific class, that still does not necessarily mean that you
+                        will be the one promoted from Reserve to Core. We call ourselves a semi-hardcore guild, which
+                        means that while we want to field a very strong raid to clear all content without issue, we’re
+                        still open to a raid comp that isn’t set in stone. When our Core raid team loses a Rogue, we may
+                        take a Rogue or a Warrior in their place. When a Mage steps down from Core, we may take a
+                        Warlock, Mage, or even a Hunter in their place depending on if we’re oversaturated with Mages at
+                        that time, or if we’re severely lacking Warlocks or Hunters. The bottom line is: when a player
+                        of “Class A” leaves, that does not imply that a Reserve raider of “Class A” will be promoted in
+                        their place.</p>
+
+                    <p>So given the above example what, then, will be the determining factors when deciding who on our
+                        Reserve roster gets promoted if the replacement can be of one or more classes? Simply put: it
+                        will be a combination of all of the criteria listed in the section describing Reserve Raiders
+                        above. When such a spot on the Core team opens up that could be replaced by two or more
+                        different classes, the Officers will get together and decide, collectively, which Reserve raider
+                        among those classes has “earned” the promotion from Reserve to Core most, based on the above
+                        criteria.</p>
+
+                    <p>With all of that said, if a Core raid spot opens up and we only want to replace it with a
+                        specific class (not necessarily the same class), then the Officer who represents that class
+                        (Class Leader) alone will make the decision on which Reserve member in that class gets promoted.
+                        For example, if we lose a Priest from the Core team, but we only have 3 main raiding Paladins,
+                        we might decide that we only want to fill that Priest’s position with a Paladin. In that case,
+                        the decision of which Reserve Paladin to promote will fall solely on the Paladin Class
+                        Leader/Officer.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col l12 m12 s12">
+                    <h4>Can I be recruited directly as a Core Raider?</h4>
+                    <p>Yes. If we are in need of one particular class and don’t have a full 40-man Core roster, you can
+                        be brought in straight to Core as long as we’ve already been able to evaluate you on a majority
+                        of the same criteria outlined in the Reserve Raiders section above. Typically, this could happen
+                        if you’ve met some of our members either in Dungeons or in PvP who then tell us about how you’re
+                        super chill, super good, and are expressing an interest in joining. As long as we don’t have any
+                        reason to doubt this evaluation, we could go ahead and invite you directly into our Core roster.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col l12 m12 s12">
+                    <h4>Can I be demoted from Core Raider?</h4>
+                    <p>Yes. This can occur for any number of reasons, but it will usually be a gradual process. It’s
+                        best illustrated with an example. Let’s say you are a Core raider for a given class and you
+                        aren’t really active in the guild outside of raid nights, you haven’t bothered getting that +9
+                        Strength enchant to your bracers or the +4 Stats to chest, and you also don’t typically bother
+                        bringing consumables to our raids. Now, let’s say we have a promising Reserve raider of your
+                        same class/role waiting for their chance to join the raid team who is regularly active (helping
+                        out) in the guild outside of raid nights, who has farmed all of their pre-raid BiS (is raring to
+                        go), and who has also enchanted it fully. Let’s say I’m your class leader/officer. Seeing this
+                        objectively, it seems clear to me that this up-and-coming Reserve raider just wants to be a part
+                        of our raid team (and guild, for that matter) more than you do. They are on more, they are
+                        helping out the guild, and they are putting in the effort to maximize their performance for the
+                        benefit of the raid team.</p>
+
+                    <p>At this point, I won’t straight up demote you from your Core position, but I will reach out to
+                        you either in-game or via Discord. I will make sure that you understand that the title of “Core
+                        Raider” in our guild carries certain expectations, and I will direct you to this webpage. I will
+                        make you aware that I am reaching out to you because I noticed that there is a player on our
+                        Reserve roster who appears to want to be on our raid team more than you do, and that
+                        additionally all of the other players of your class on our raid team exhibit similar
+                        enthusiasm/effort for raiding with us and being a part of our guild, but that your actions
+                        aren’t indicating that you share those same sentiments. I’d explain to you that, objectively, at
+                        the present time it seems unfair that this player should have to remain on the bench in favor of
+                        yourself on the Core team. I’d tell you that unless something changes with your own effort
+                        and/or activity, I can’t justify anything other than to demote you in favor of this Reserve
+                        raider. I would close by ensuring you that your spot on the Core team is sound as long as you
+                        make it clear to me that this other player doesn’t, in fact, deserve this spot more than you via
+                        your actions.</p>
+
+                    <p>It’s important to note that in this example you (the Core Raider) didn’t get reached out to
+                        simply because you didn’t enchant +4 stats instead of +3, or that you didn’t bring consumables
+                        to raid, or that you only log in for raids. It was due to a combination of these things together
+                        with the fact that the other Core raiders of your class/role are all putting in full effort that
+                        caused me to identify you as a potential candidate for demotion. We’re not saying that “three or
+                        more violations”, specifically, is cause for concern, we’re more just trying to illustrate the
+                        point that it’s OK for our Core members to not have their gear fully enchanted if they still
+                        bring their baseline consumes on raid nights (which hardly cost anything), and it’s OK if our
+                        Core members have their gear fully enchanted and had been bringing consumables before but they
+                        simply stopped bringing them because they aren’t “needed” now that the content is on farm. It’s
+                        even OK (though not desired) if our Core members are typically busy on most nights outside of
+                        raid but show up to every single raid on-time and ready to go with full enchants and consumes.
+                        It’s only cause for concern for the Officers when a profile of several of these traits starts to
+                        form.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col l12 m12 s12">
+                    <h4>How are Legendaries Handled?</h4>
+                    <p>Legendary recipients are determined via Loot Council decisions by the Officer core. Even though
+                        the decision is left to the Officers, we can still share some of the criteria we use when
+                        deciding recipients. We consider first and foremost “guild benefit”, where we prioritize PvE
+                        benefit before PvP benefit. These types of decisions are clearer when it comes to Thunderfury
+                        and Sulfuras. However, with Atiesh, it will likely come down to more of the broad criteria
+                        outlined in the section describing Reserve Raiders above - but that decision is still very far
+                        off.</p>
+
+                    <p>One important thing to note is that the guild bank will not be providing all materials necessary
+                        for crafting legendaries. Our general stance is that we will try to help where we can via the
+                        guild bank, but that the recipients of legendaries are expected to do the vast majority of the
+                        farming themselves.</p>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col l12 m12 s12">
+                    <h4>How does TnT handle Guild Bank materials?</h4>
+                    <p>Any of our members can request items from the Guild Bank at any time. If they need enchanting
+                        materials for their BiS weapon they just picked up, we’ll offer what we have for free. If they
+                        want to purchase a leftover BoE for an alt, or purchase some of our raid materials, we’ll sell
+                        them at a deep discount.</p>
+
+                    <p>But how can you know what’s in the guild bank? In the coming weeks, we will have our Guild Bank
+                        web portal online where our full Guild Bank inventory can be viewable by any member at any time
+                        thanks to our custom Bank Reporting AddOn. However, until this feature is online, you can simply
+                        reach out to one of the Officers to inquire about the availability of specific items or
+                        materials. There are some materials we will be retaining for guild progression purposes, such as
+                        a stash of Lava/Fiery cores, Sulfuron Ingots, Onyxia Scale Cloaks, and our Gold, but the vast
+                        majority of the Guild Bank materials are open to our members.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col l12 m12 s12">
+                    <h4>Do I need to bring consumables each night?</h4>
+                    <p>No, with a few exceptions. We always want our players to perform, but as long as all content is
+                        on easy farm we are never going to require our raiders to come with full consumables. With that
+                        said, there will be specific nights (identified well in advance) where we will require full
+                        consumables (including flasks and world buffs) from our raiders. Some examples would be nights
+                        where we are coordinating a “speed run”, or during the first week of new raid content (such as
+                        BWL, AQ40, or Naxx opening week). Do note, however, that “effort” is one of the criteria we
+                        consider when handling Reserve to Core promotions, and consumable preparedness is one way we can
+                        identify that a player is putting in considerable effort.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col l12 m12 s12">
+                    <h4>Does TnT PvP?</h4>
+                    <p>TnT PvPs. We have a core group of players who went extremely hard in world PvP and are now
+                        pushing AV, as well as many more who are spam-queueing BGs. If you are looking for PvP, look no
+                        further.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col l12 m12 s12">
+                    <h4>What if I disagree with one or more of these policies?</h4>
+                    <p>Our Officer core is extremely approachable. If you ever have any questions or concerns regarding
+                        any of the policies listed here (or policies not listed here) please don’t hesitate to reach out
+                        to any of us. Every opinion is valid, and even if we don’t end up changing our policy as a
+                        result of your concern we will at least thoroughly explain to you our thinking behind our
+                        decision.</p>
+                </div>
+            </div>
+        </div><!-- /container -->
+    </div><!-- /section -->
+
+    <footer class="page-footer">
+        <div class="footer-copyright">
+            <div class="container">
+                © 2020 There's No Tomorrow
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="{% static 'js/tnt-js.js' %}"></script>
+</body>
+
+</html>

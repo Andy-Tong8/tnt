@@ -1,0 +1,1957 @@
+{
+    "dateModified": "Thursday, January 30, 2020",
+    "timeModified": "5:15 PM",
+    "raiders": [
+        {
+            "name": "Thursday",
+            "PriorityDKP": 7725,
+            "LotteryDKP": 2725,
+            "class": "Warrior",
+            "Rank": "Core Raider",
+            "PriorityConfig": [
+                {
+                    "ItemName": "Maladath",
+                    "Quantity": 1,
+                    "ItemID": 19351
+                }
+            ],
+            "LotteryConfig": [
+                {
+                    "ItemName": "Band Of Accuria",
+                    "Quantity": 1,
+                    "ItemID": 17063
+                },
+                {
+                    "ItemName": "Blastershot Launcher",
+                    "Quantity": 1,
+                    "ItemID": 17072
+                },
+                {
+                    "ItemName": "Cloak Of The Shrouded Mists",
+                    "Quantity": 1,
+                    "ItemID": 17102
+                },
+                {
+                    "ItemName": "Wristguards Of True Flight",
+                    "Quantity": 1,
+                    "ItemID": 18812
+                }
+            ]
+        },
+        {
+            "name": "Dalran",
+            "PriorityDKP": 7300,
+            "LotteryDKP": 6300,
+            "class": "Warrior",
+            "Rank": "Core Raider",
+            "PriorityConfig": [
+                {
+                    "ItemName": "Brutality Blade",
+                    "Quantity": 1,
+                    "ItemID": 18832
+                },
+                {
+                    "ItemName": "Maladath",
+                    "Quantity": 1,
+                    "ItemID": 19351
+                },
+                {
+                    "ItemName": "Onslaught Girdle",
+                    "Quantity": 1,
+                    "ItemID": 19137
+                }
+            ],
+            "LotteryConfig": [
+                {
+                    "ItemName": "Quick Strike Ring",
+                    "Quantity": 1,
+                    "ItemID": 18821
+                },
+                {
+                    "ItemName": "Striker's Mark",
+                    "Quantity": 1,
+                    "ItemID": 17069
+                }
+            ]
+        },
+        {
+            "name": "Crylo",
+            "PriorityDKP": 6950,
+            "LotteryDKP": 6950,
+            "class": "Warrior",
+            "Rank": "Core Raider",
+            "PriorityConfig": [
+                {
+                    "ItemName": "Chromatic Boots",
+                    "Quantity": 1,
+                    "ItemID": 19387
+                },
+                {
+                    "ItemName": "Drake Talon Pauldrons",
+                    "Quantity": 1,
+                    "ItemID": 19394
+                }
+            ],
+            "LotteryConfig": [
+                {
+                    "ItemName": "Band Of Accuria",
+                    "Quantity": 1,
+                    "ItemID": 17063
+                },
+                {
+                    "ItemName": "Bonereaver's Edge",
+                    "Quantity": 1,
+                    "ItemID": 17076
+                },
+                {
+                    "ItemName": "Flameguard Gauntlets",
+                    "Quantity": 1,
+                    "ItemID": 19143
+                },
+                {
+                    "ItemName": "Quick Strike Ring",
+                    "Quantity": 1,
+                    "ItemID": 18821
+                }
+            ]
+        },
+        {
+            "name": "Kang",
+            "PriorityDKP": 5825,
+            "LotteryDKP": 4825,
+            "class": "Warrior",
+            "Rank": "Core Raider",
+            "PriorityConfig": [
+                {
+                    "ItemName": "Spinal Reaper",
+                    "Quantity": 1,
+                    "ItemID": 17104
+                }
+            ],
+            "LotteryConfig": [
+                {
+                    "ItemName": "Onslaught Girdle",
+                    "Quantity": 1,
+                    "ItemID": 19137
+                }
+            ]
+        },
+        {
+            "name": "Tongster",
+            "PriorityDKP": 5150,
+            "LotteryDKP": 7150,
+            "class": "Warrior",
+            "Rank": "Core Raider",
+            "PriorityConfig": [
+                {
+                    "ItemName": "Chromatic Boots",
+                    "Quantity": 1,
+                    "ItemID": 19387
+                },
+                {
+                    "ItemName": "Chromatically Tempered Sword",
+                    "Quantity": 1,
+                    "ItemID": 19352
+                }
+            ],
+            "LotteryConfig": [
+                {
+                    "ItemName": "Bonereaver's Edge",
+                    "Quantity": 1,
+                    "ItemID": 17076
+                },
+                {
+                    "ItemName": "Drake Fang Talisman",
+                    "Quantity": 1,
+                    "ItemID": 19406
+                },
+                {
+                    "ItemName": "Maladath",
+                    "Quantity": 1,
+                    "ItemID": 19351
+                },
+                {
+                    "ItemName": "Quick Strike Ring",
+                    "Quantity": 1,
+                    "ItemID": 18821
+                },
+                {
+                    "ItemName": "Spinal Reaper",
+                    "Quantity": 1,
+                    "ItemID": 17104
+                },
+                {
+                    "ItemName": "Striker's Mark",
+                    "Quantity": 1,
+                    "ItemID": 17069
+                },
+                {
+                    "ItemName": "Viskag",
+                    "Quantity": 1,
+                    "ItemID": 17075
+                },
+                {
+                    "ItemName": "Wristguards Of Stability",
+                    "Quantity": 1,
+                    "ItemID": 19146
+                }
+            ]
+        },
+        {
+            "name": "Akaran",
+            "PriorityDKP": 4875,
+            "LotteryDKP": 1875,
+            "class": "Warrior",
+            "Rank": "Core Raider",
+            "PriorityConfig": [],
+            "LotteryConfig": [
+                {
+                    "ItemName": "Sabatons Of Might",
+                    "Quantity": 1,
+                    "ItemID": 16862
+                }
+            ]
+        },
+        {
+            "name": "Fillmore",
+            "PriorityDKP": 3125,
+            "LotteryDKP": 3125,
+            "class": "Warrior",
+            "Rank": "Core Raider",
+            "PriorityConfig": [
+                {
+                    "ItemName": "Chromatic Boots",
+                    "Quantity": 1,
+                    "ItemID": 19387
+                },
+                {
+                    "ItemName": "Drake Talon Pauldrons",
+                    "Quantity": 1,
+                    "ItemID": 19394
+                },
+                {
+                    "ItemName": "Onslaught Girdle",
+                    "Quantity": 1,
+                    "ItemID": 19137
+                },
+                {
+                    "ItemName": "Perdition's Blade",
+                    "Quantity": 1,
+                    "ItemID": 18816
+                }
+            ],
+            "LotteryConfig": [
+                {
+                    "ItemName": "Aged Core Leather Gloves",
+                    "Quantity": 1,
+                    "ItemID": 18823
+                },
+                {
+                    "ItemName": "Ashkandi",
+                    "Quantity": 1,
+                    "ItemID": 19364
+                },
+                {
+                    "ItemName": "Blastershot Launcher",
+                    "Quantity": 1,
+                    "ItemID": 17072
+                },
+                {
+                    "ItemName": "Cloak Of Draconic Might",
+                    "Quantity": 1,
+                    "ItemID": 19436
+                },
+                {
+                    "ItemName": "Head Of Nefarian",
+                    "Quantity": 1,
+                    "ItemID": 19003
+                },
+                {
+                    "ItemName": "Legguards Of The Fallen Crusader",
+                    "Quantity": 1,
+                    "ItemID": 19402
+                },
+                {
+                    "ItemName": "Quick Strike Ring",
+                    "Quantity": 1,
+                    "ItemID": 18821
+                }
+            ]
+        },
+        {
+            "name": "Zerxx",
+            "PriorityDKP": 3000,
+            "LotteryDKP": 3000,
+            "class": "Warrior",
+            "Rank": "Core Raider",
+            "PriorityConfig": [
+                {
+                    "ItemName": "Bonereaver's Edge",
+                    "Quantity": 1,
+                    "ItemID": 17076
+                },
+                {
+                    "ItemName": "Drake Fang Talisman",
+                    "Quantity": 1,
+                    "ItemID": 19406
+                },
+                {
+                    "ItemName": "Head Of Nefarian",
+                    "Quantity": 1,
+                    "ItemID": 19003
+                },
+                {
+                    "ItemName": "Onslaught Girdle",
+                    "Quantity": 1,
+                    "ItemID": 19137
+                }
+            ],
+            "LotteryConfig": [
+                {
+                    "ItemName": "Blastershot Launcher",
+                    "Quantity": 1,
+                    "ItemID": 17072
+                },
+                {
+                    "ItemName": "Dragon's Blood Cape",
+                    "Quantity": 1,
+                    "ItemID": 17107
+                },
+                {
+                    "ItemName": "Striker's Mark",
+                    "Quantity": 1,
+                    "ItemID": 17069
+                }
+            ]
+        },
+        {
+            "name": "Lotharr",
+            "PriorityDKP": 650,
+            "LotteryDKP": 650,
+            "class": "Warrior",
+            "Rank": "Reserve Raider",
+            "PriorityConfig": [
+                {
+                    "ItemName": "Band Of Accuria",
+                    "Quantity": 1,
+                    "ItemID": 17063
+                },
+                {
+                    "ItemName": "Bonereaver's Edge",
+                    "Quantity": 1,
+                    "ItemID": 17076
+                },
+                {
+                    "ItemName": "Onslaught Girdle",
+                    "Quantity": 1,
+                    "ItemID": 19137
+                }
+            ],
+            "LotteryConfig": [
+                {
+                    "ItemName": "Brutality Blade",
+                    "Quantity": 1,
+                    "ItemID": 18832
+                },
+                {
+                    "ItemName": "Quick Strike Ring",
+                    "Quantity": 1,
+                    "ItemID": 18821
+                },
+                {
+                    "ItemName": "Striker's Mark",
+                    "Quantity": 1,
+                    "ItemID": 17069
+                }
+            ]
+        },
+        {
+            "name": "Muck",
+            "PriorityDKP": 550,
+            "LotteryDKP": 550,
+            "class": "Warrior",
+            "Rank": "Reserve Raider",
+            "PriorityConfig": [],
+            "LotteryConfig": [
+                {
+                    "ItemName": "Dragon's Blood Cape",
+                    "Quantity": 1,
+                    "ItemID": 17107
+                },
+                {
+                    "ItemName": "Quick Strike Ring",
+                    "Quantity": 1,
+                    "ItemID": 18821
+                },
+                {
+                    "ItemName": "Spinal Reaper",
+                    "Quantity": 1,
+                    "ItemID": 17104
+                },
+                {
+                    "ItemName": "Wristguards Of Stability",
+                    "Quantity": 1,
+                    "ItemID": 19146
+                }
+            ]
+        },
+        {
+            "name": "Searus",
+            "PriorityDKP": 7575,
+            "LotteryDKP": 4575,
+            "class": "Rogue",
+            "Rank": "Core Raider",
+            "PriorityConfig": [
+                {
+                    "ItemName": "Chromatically Tempered Sword",
+                    "Quantity": 1,
+                    "ItemID": 19352
+                },
+                {
+                    "ItemName": "Viskag",
+                    "Quantity": 1,
+                    "ItemID": 17075
+                }
+            ],
+            "LotteryConfig": [
+                {
+                    "ItemName": "Bloodfang Chestpiece",
+                    "Quantity": 1,
+                    "ItemID": 16905
+                },
+                {
+                    "ItemName": "Drake Fang Talisman",
+                    "Quantity": 1,
+                    "ItemID": 19406
+                },
+                {
+                    "ItemName": "Maladath",
+                    "Quantity": 1,
+                    "ItemID": 19351
+                },
+                {
+                    "ItemName": "Nightslayer Shoulder Pads",
+                    "Quantity": 1,
+                    "ItemID": 16823
+                },
+                {
+                    "ItemName": "Perdition's Blade",
+                    "Quantity": 1,
+                    "ItemID": 18816
+                },
+                {
+                    "ItemName": "Prestor's Talisman Of Connivery",
+                    "Quantity": 1,
+                    "ItemID": 19377
+                },
+                {
+                    "ItemName": "Quick Strike Ring",
+                    "Quantity": 1,
+                    "ItemID": 18821
+                }
+            ]
+        },
+        {
+            "name": "Nocjr",
+            "PriorityDKP": 7200,
+            "LotteryDKP": 6200,
+            "class": "Rogue",
+            "Rank": "Core Raider",
+            "PriorityConfig": [
+                {
+                    "ItemName": "Drake Fang Talisman",
+                    "Quantity": 1,
+                    "ItemID": 19406
+                }
+            ],
+            "LotteryConfig": [
+                {
+                    "ItemName": "Band Of Accuria",
+                    "Quantity": 1,
+                    "ItemID": 17063
+                },
+                {
+                    "ItemName": "Nightslayer Shoulder Pads",
+                    "Quantity": 1,
+                    "ItemID": 16823
+                },
+                {
+                    "ItemName": "Quick Strike Ring",
+                    "Quantity": 1,
+                    "ItemID": 18821
+                },
+                {
+                    "ItemName": "Striker's Mark",
+                    "Quantity": 1,
+                    "ItemID": 17069
+                }
+            ]
+        },
+        {
+            "name": "Derex",
+            "PriorityDKP": 5150,
+            "LotteryDKP": 3150,
+            "class": "Rogue",
+            "Rank": "Core Raider",
+            "PriorityConfig": [
+                {
+                    "ItemName": "Band Of Accuria",
+                    "Quantity": 1,
+                    "ItemID": 17063
+                },
+                {
+                    "ItemName": "Nightslayer Chestpiece",
+                    "Quantity": 1,
+                    "ItemID": 16820
+                }
+            ],
+            "LotteryConfig": [
+                {
+                    "ItemName": "Bloodfang Pants",
+                    "Quantity": 1,
+                    "ItemID": 16909
+                },
+                {
+                    "ItemName": "Cloak Of The Shrouded Mists",
+                    "Quantity": 1,
+                    "ItemID": 17102
+                },
+                {
+                    "ItemName": "Quick Strike Ring",
+                    "Quantity": 1,
+                    "ItemID": 18821
+                }
+            ]
+        },
+        {
+            "name": "Boyarde",
+            "PriorityDKP": 5150,
+            "LotteryDKP": 2150,
+            "class": "Rogue",
+            "Rank": "Core Raider",
+            "PriorityConfig": [
+                {
+                    "ItemName": "Brutality Blade",
+                    "Quantity": 1,
+                    "ItemID": 18832
+                }
+            ],
+            "LotteryConfig": [
+                {
+                    "ItemName": "Band Of Accuria",
+                    "Quantity": 1,
+                    "ItemID": 17063
+                },
+                {
+                    "ItemName": "Nightslayer Belt",
+                    "Quantity": 1,
+                    "ItemID": 16827
+                },
+                {
+                    "ItemName": "Nightslayer Chestpiece",
+                    "Quantity": 1,
+                    "ItemID": 16820
+                },
+                {
+                    "ItemName": "Striker's Mark",
+                    "Quantity": 1,
+                    "ItemID": 17069
+                }
+            ]
+        },
+        {
+            "name": "Clern",
+            "PriorityDKP": 4325,
+            "LotteryDKP": 3325,
+            "class": "Rogue",
+            "Rank": "Core Raider",
+            "PriorityConfig": [
+                {
+                    "ItemName": "Core Hound Tooth",
+                    "Quantity": 1,
+                    "ItemID": 18805
+                },
+                {
+                    "ItemName": "Perdition's Blade",
+                    "Quantity": 1,
+                    "ItemID": 18816
+                }
+            ],
+            "LotteryConfig": [
+                {
+                    "ItemName": "Band Of Accuria",
+                    "Quantity": 1,
+                    "ItemID": 17063
+                },
+                {
+                    "ItemName": "Nightslayer Pants",
+                    "Quantity": 1,
+                    "ItemID": 16822
+                },
+                {
+                    "ItemName": "Nightslayer Shoulder Pads",
+                    "Quantity": 1,
+                    "ItemID": 16823
+                },
+                {
+                    "ItemName": "Striker's Mark",
+                    "Quantity": 1,
+                    "ItemID": 17069
+                }
+            ]
+        },
+        {
+            "name": "Kortey",
+            "PriorityDKP": 3450,
+            "LotteryDKP": 4450,
+            "class": "Rogue",
+            "Rank": "Reserve Raider",
+            "PriorityConfig": [
+                {
+                    "ItemName": "Core Hound Tooth",
+                    "Quantity": 1,
+                    "ItemID": 18805
+                }
+            ],
+            "LotteryConfig": [
+                {
+                    "ItemName": "Band Of Accuria",
+                    "Quantity": 1,
+                    "ItemID": 17063
+                },
+                {
+                    "ItemName": "Nightslayer Belt",
+                    "Quantity": 1,
+                    "ItemID": 16827
+                },
+                {
+                    "ItemName": "Nightslayer Bracelets",
+                    "Quantity": 1,
+                    "ItemID": 16825
+                },
+                {
+                    "ItemName": "Nightslayer Chestpiece",
+                    "Quantity": 1,
+                    "ItemID": 16820
+                },
+                {
+                    "ItemName": "Striker's Mark",
+                    "Quantity": 1,
+                    "ItemID": 17069
+                }
+            ]
+        },
+        {
+            "name": "Beansv",
+            "PriorityDKP": 3225,
+            "LotteryDKP": 3225,
+            "class": "Rogue",
+            "Rank": "Core Raider",
+            "PriorityConfig": [
+                {
+                    "ItemName": "Bloodfang Hood",
+                    "Quantity": 1,
+                    "ItemID": 16908
+                },
+                {
+                    "ItemName": "Brutality Blade",
+                    "Quantity": 1,
+                    "ItemID": 18832
+                },
+                {
+                    "ItemName": "Viskag",
+                    "Quantity": 1,
+                    "ItemID": 17075
+                }
+            ],
+            "LotteryConfig": [
+                {
+                    "ItemName": "Band Of Accuria",
+                    "Quantity": 1,
+                    "ItemID": 17063
+                },
+                {
+                    "ItemName": "Nightslayer Shoulder Pads",
+                    "Quantity": 1,
+                    "ItemID": 16823
+                }
+            ]
+        },
+        {
+            "name": "Gulrin",
+            "PriorityDKP": 3225,
+            "LotteryDKP": 1225,
+            "class": "Rogue",
+            "Rank": "Reserve Raider",
+            "PriorityConfig": [
+                {
+                    "ItemName": "Core Hound Tooth",
+                    "Quantity": 1,
+                    "ItemID": 18805
+                }
+            ],
+            "LotteryConfig": []
+        },
+        {
+            "name": "Whogryps",
+            "PriorityDKP": 2200,
+            "LotteryDKP": 2200,
+            "class": "Rogue",
+            "Rank": "Social Member",
+            "PriorityConfig": [],
+            "LotteryConfig": []
+        },
+        {
+            "name": "Relkan",
+            "PriorityDKP": 1050,
+            "LotteryDKP": 1050,
+            "class": "Rogue",
+            "Rank": "Reserve Raider",
+            "PriorityConfig": [
+                {
+                    "ItemName": "Drake Fang Talisman",
+                    "Quantity": 1,
+                    "ItemID": 19406
+                },
+                {
+                    "ItemName": "Maladath",
+                    "Quantity": 1,
+                    "ItemID": 19351
+                }
+            ],
+            "LotteryConfig": [
+                {
+                    "ItemName": "Band Of Accuria",
+                    "Quantity": 1,
+                    "ItemID": 17063
+                },
+                {
+                    "ItemName": "Bloodfang Bracers",
+                    "Quantity": 1,
+                    "ItemID": 16911
+                },
+                {
+                    "ItemName": "Bloodfang Chestpiece",
+                    "Quantity": 1,
+                    "ItemID": 16905
+                }
+            ]
+        },
+        {
+            "name": "Mlg",
+            "PriorityDKP": 7950,
+            "LotteryDKP": 4950,
+            "class": "Mage",
+            "Rank": "Core Raider",
+            "PriorityConfig": [
+                {
+                    "ItemName": "Azuresong Mageblade",
+                    "Quantity": 1,
+                    "ItemID": 17103
+                },
+                {
+                    "ItemName": "Choker Of The Firelord",
+                    "Quantity": 1,
+                    "ItemID": 18814
+                }
+            ],
+            "LotteryConfig": [
+                {
+                    "ItemName": "Arcanist Bindings",
+                    "Quantity": 1,
+                    "ItemID": 16799
+                },
+                {
+                    "ItemName": "Arcanist Crown",
+                    "Quantity": 1,
+                    "ItemID": 16795
+                },
+                {
+                    "ItemName": "Ring Of Spell Power",
+                    "Quantity": 1,
+                    "ItemID": 19147
+                }
+            ]
+        },
+        {
+            "name": "Thejudge",
+            "PriorityDKP": 6200,
+            "LotteryDKP": 7200,
+            "class": "Mage",
+            "Rank": "Core Raider",
+            "PriorityConfig": [],
+            "LotteryConfig": [
+                {
+                    "ItemName": "Arcanist Bindings",
+                    "Quantity": 1,
+                    "ItemID": 16799
+                },
+                {
+                    "ItemName": "Mana Igniting Cord",
+                    "Quantity": 1,
+                    "ItemID": 19136
+                }
+            ]
+        },
+        {
+            "name": "Grigg",
+            "PriorityDKP": 5900,
+            "LotteryDKP": 1900,
+            "class": "Mage",
+            "Rank": "Core Raider",
+            "PriorityConfig": [
+                {
+                    "ItemName": "Choker Of The Firelord",
+                    "Quantity": 1,
+                    "ItemID": 18814
+                },
+                {
+                    "ItemName": "Talisman Of Ephemeral Power",
+                    "Quantity": 1,
+                    "ItemID": 18820
+                }
+            ],
+            "LotteryConfig": [
+                {
+                    "ItemName": "Arcanist Boots",
+                    "Quantity": 1,
+                    "ItemID": 16800
+                }
+            ]
+        },
+        {
+            "name": "Pureheart",
+            "PriorityDKP": 3550,
+            "LotteryDKP": 2550,
+            "class": "Mage",
+            "Rank": "Core Raider",
+            "PriorityConfig": [
+                {
+                    "ItemName": "Arcanist Bindings",
+                    "Quantity": 1,
+                    "ItemID": 16799
+                },
+                {
+                    "ItemName": "Choker Of The Firelord",
+                    "Quantity": 1,
+                    "ItemID": 18814
+                },
+                {
+                    "ItemName": "Ring Of Spell Power",
+                    "Quantity": 1,
+                    "ItemID": 19147
+                },
+                {
+                    "ItemName": "Talisman Of Ephemeral Power",
+                    "Quantity": 1,
+                    "ItemID": 18820
+                }
+            ],
+            "LotteryConfig": [
+                {
+                    "ItemName": "Band Of Sulfuras",
+                    "Quantity": 1,
+                    "ItemID": 19138
+                },
+                {
+                    "ItemName": "Sapphiron Drape",
+                    "Quantity": 1,
+                    "ItemID": 17078
+                }
+            ]
+        },
+        {
+            "name": "Ändreas",
+            "PriorityDKP": 3225,
+            "LotteryDKP": 3225,
+            "class": "Mage",
+            "Rank": "Reserve Raider",
+            "PriorityConfig": [
+                {
+                    "ItemName": "Mana Igniting Cord",
+                    "Quantity": 1,
+                    "ItemID": 19136
+                },
+                {
+                    "ItemName": "Mish'Undare",
+                    "Quantity": 1,
+                    "ItemID": 19375
+                },
+                {
+                    "ItemName": "Neltharion's Tear",
+                    "Quantity": 1,
+                    "ItemID": 19379
+                },
+                {
+                    "ItemName": "Ring Of Spell Power",
+                    "Quantity": 1,
+                    "ItemID": 19147
+                }
+            ],
+            "LotteryConfig": [
+                {
+                    "ItemName": "Arcanist Crown",
+                    "Quantity": 1,
+                    "ItemID": 16795
+                },
+                {
+                    "ItemName": "Band Of Forced Concentration",
+                    "Quantity": 1,
+                    "ItemID": 19403
+                },
+                {
+                    "ItemName": "Mind Quickening Gem",
+                    "Quantity": 1,
+                    "ItemID": 19339
+                }
+            ]
+        },
+        {
+            "name": "Blisterz",
+            "PriorityDKP": 2775,
+            "LotteryDKP": 2775,
+            "class": "Mage",
+            "Rank": "Core Raider",
+            "PriorityConfig": [
+                {
+                    "ItemName": "Choker Of The Firelord",
+                    "Quantity": 1,
+                    "ItemID": 18814
+                },
+                {
+                    "ItemName": "Talisman Of Ephemeral Power",
+                    "Quantity": 1,
+                    "ItemID": 18820
+                }
+            ],
+            "LotteryConfig": [
+                {
+                    "ItemName": "Arcanist Bindings",
+                    "Quantity": 1,
+                    "ItemID": 16799
+                },
+                {
+                    "ItemName": "Arcanist Boots",
+                    "Quantity": 1,
+                    "ItemID": 16800
+                },
+                {
+                    "ItemName": "Mana Igniting Cord",
+                    "Quantity": 1,
+                    "ItemID": 19136
+                },
+                {
+                    "ItemName": "Sapphiron Drape",
+                    "Quantity": 1,
+                    "ItemID": 17078
+                }
+            ]
+        },
+        {
+            "name": "Melisandre",
+            "PriorityDKP": 1025,
+            "LotteryDKP": 1025,
+            "class": "Mage",
+            "Rank": "Reserve Raider",
+            "PriorityConfig": [
+                {
+                    "ItemName": "Azuresong Mageblade",
+                    "Quantity": 1,
+                    "ItemID": 17103
+                },
+                {
+                    "ItemName": "Staff Of Dominance",
+                    "Quantity": 1,
+                    "ItemID": 18842
+                },
+                {
+                    "ItemName": "Talisman Of Ephemeral Power",
+                    "Quantity": 1,
+                    "ItemID": 18820
+                }
+            ],
+            "LotteryConfig": [
+                {
+                    "ItemName": "Arcanist Bindings",
+                    "Quantity": 1,
+                    "ItemID": 16799
+                },
+                {
+                    "ItemName": "Arcanist Boots",
+                    "Quantity": 1,
+                    "ItemID": 16800
+                },
+                {
+                    "ItemName": "Arcanist Crown",
+                    "Quantity": 1,
+                    "ItemID": 16795
+                },
+                {
+                    "ItemName": "Choker Of The Firelord",
+                    "Quantity": 1,
+                    "ItemID": 18814
+                },
+                {
+                    "ItemName": "Mana Igniting Cord",
+                    "Quantity": 1,
+                    "ItemID": 19136
+                },
+                {
+                    "ItemName": "Netherwind Pants",
+                    "Quantity": 1,
+                    "ItemID": 16915
+                },
+                {
+                    "ItemName": "Ring Of Spell Power",
+                    "Quantity": 1,
+                    "ItemID": 19147
+                }
+            ]
+        },
+        {
+            "name": "Demeker",
+            "PriorityDKP": 6525,
+            "LotteryDKP": 4525,
+            "class": "Warlock",
+            "Rank": "Core Raider",
+            "PriorityConfig": [
+                {
+                    "ItemName": "Choker Of The Firelord",
+                    "Quantity": 1,
+                    "ItemID": 18814
+                },
+                {
+                    "ItemName": "Mish'Undare",
+                    "Quantity": 1,
+                    "ItemID": 19375
+                },
+                {
+                    "ItemName": "Neltharion's Tear",
+                    "Quantity": 1,
+                    "ItemID": 19379
+                },
+                {
+                    "ItemName": "Staff Of The Shadow Flame",
+                    "Quantity": 1,
+                    "ItemID": 19356
+                },
+                {
+                    "ItemName": "Talisman Of Ephemeral Power",
+                    "Quantity": 1,
+                    "ItemID": 18820
+                }
+            ],
+            "LotteryConfig": [
+                {
+                    "ItemName": "Ring Of Spell Power",
+                    "Quantity": 1,
+                    "ItemID": 19147
+                },
+                {
+                    "ItemName": "Robe Of Volatile Power",
+                    "Quantity": 1,
+                    "ItemID": 19145
+                },
+                {
+                    "ItemName": "Sapphiron Drape",
+                    "Quantity": 1,
+                    "ItemID": 17078
+                }
+            ]
+        },
+        {
+            "name": "Realfrosted",
+            "PriorityDKP": 5050,
+            "LotteryDKP": 5050,
+            "class": "Warlock",
+            "Rank": "Core Raider",
+            "PriorityConfig": [
+                {
+                    "ItemName": "Choker Of The Firelord",
+                    "Quantity": 1,
+                    "ItemID": 18814
+                },
+                {
+                    "ItemName": "Neltharion's Tear",
+                    "Quantity": 1,
+                    "ItemID": 19379
+                },
+                {
+                    "ItemName": "Talisman Of Ephemeral Power",
+                    "Quantity": 1,
+                    "ItemID": 18820
+                }
+            ],
+            "LotteryConfig": [
+                {
+                    "ItemName": "Ring Of Spell Power",
+                    "Quantity": 1,
+                    "ItemID": 19147
+                }
+            ]
+        },
+        {
+            "name": "Rotheart",
+            "PriorityDKP": 2225,
+            "LotteryDKP": 2225,
+            "class": "Warlock",
+            "Rank": "Core Raider",
+            "PriorityConfig": [
+                {
+                    "ItemName": "Choker Of The Firelord",
+                    "Quantity": 1,
+                    "ItemID": 18814
+                },
+                {
+                    "ItemName": "Talisman Of Ephemeral Power",
+                    "Quantity": 1,
+                    "ItemID": 18820
+                }
+            ],
+            "LotteryConfig": [
+                {
+                    "ItemName": "Felheart Bracers",
+                    "Quantity": 1,
+                    "ItemID": 16804
+                },
+                {
+                    "ItemName": "Ring Of Spell Power",
+                    "Quantity": 1,
+                    "ItemID": 19147
+                }
+            ]
+        },
+        {
+            "name": "Radicola",
+            "PriorityDKP": 2225,
+            "LotteryDKP": 2225,
+            "class": "Warlock",
+            "Rank": "Reserve Raider",
+            "PriorityConfig": [
+                {
+                    "ItemName": "Choker Of The Firelord",
+                    "Quantity": 1,
+                    "ItemID": 18814
+                },
+                {
+                    "ItemName": "Talisman Of Ephemeral Power",
+                    "Quantity": 1,
+                    "ItemID": 18820
+                }
+            ],
+            "LotteryConfig": [
+                {
+                    "ItemName": "Mana Igniting Cord",
+                    "Quantity": 1,
+                    "ItemID": 19136
+                },
+                {
+                    "ItemName": "Ring Of Spell Power",
+                    "Quantity": 1,
+                    "ItemID": 19147
+                },
+                {
+                    "ItemName": "Sash Of Whispered Secrets",
+                    "Quantity": 1,
+                    "ItemID": 18809
+                }
+            ]
+        },
+        {
+            "name": "Delbert",
+            "PriorityDKP": 2100,
+            "LotteryDKP": 2100,
+            "class": "Warlock",
+            "Rank": "Core Raider",
+            "PriorityConfig": [
+                {
+                    "ItemName": "Choker Of The Firelord",
+                    "Quantity": 1,
+                    "ItemID": 18814
+                },
+                {
+                    "ItemName": "Ring Of Spell Power",
+                    "Quantity": 1,
+                    "ItemID": 19147
+                },
+                {
+                    "ItemName": "Talisman Of Ephemeral Power",
+                    "Quantity": 1,
+                    "ItemID": 18820
+                }
+            ],
+            "LotteryConfig": [
+                {
+                    "ItemName": "Felheart Bracers",
+                    "Quantity": 1,
+                    "ItemID": 16804
+                },
+                {
+                    "ItemName": "Robe Of Volatile Power",
+                    "Quantity": 1,
+                    "ItemID": 19145
+                },
+                {
+                    "ItemName": "Sapphiron Drape",
+                    "Quantity": 1,
+                    "ItemID": 17078
+                }
+            ]
+        },
+        {
+            "name": "Grove",
+            "PriorityDKP": 7900,
+            "LotteryDKP": 5900,
+            "class": "Priest",
+            "Rank": "Core Raider",
+            "PriorityConfig": [
+                {
+                    "ItemName": "Leggings Of Transcendence",
+                    "Quantity": 1,
+                    "ItemID": 16922
+                }
+            ],
+            "LotteryConfig": []
+        },
+        {
+            "name": "Sheol",
+            "PriorityDKP": 7500,
+            "LotteryDKP": 6500,
+            "class": "Priest",
+            "Rank": "Core Raider",
+            "PriorityConfig": [
+                {
+                    "ItemName": "Cauterizing Band",
+                    "Quantity": 1,
+                    "ItemID": 19140
+                },
+                {
+                    "ItemName": "Leggings Of Transcendence",
+                    "Quantity": 1,
+                    "ItemID": 16922
+                },
+                {
+                    "ItemName": "Pure Elementium Band",
+                    "Quantity": 1,
+                    "ItemID": 19382
+                },
+                {
+                    "ItemName": "Rejuvenating Gem",
+                    "Quantity": 1,
+                    "ItemID": 19395
+                }
+            ],
+            "LotteryConfig": [
+                {
+                    "ItemName": "Bindings Of Transcendence",
+                    "Quantity": 1,
+                    "ItemID": 16926
+                },
+                {
+                    "ItemName": "Boots Of Transcendence",
+                    "Quantity": 1,
+                    "ItemID": 16919
+                },
+                {
+                    "ItemName": "Essence Gatherer",
+                    "Quantity": 1,
+                    "ItemID": 19435
+                },
+                {
+                    "ItemName": "Firemaw's Clutch",
+                    "Quantity": 1,
+                    "ItemID": 19400
+                },
+                {
+                    "ItemName": "Handguards Of Transcendence",
+                    "Quantity": 1,
+                    "ItemID": 16920
+                },
+                {
+                    "ItemName": "Pauldrons Of Transcendence",
+                    "Quantity": 1,
+                    "ItemID": 16924
+                },
+                {
+                    "ItemName": "Robes Of Transcendence",
+                    "Quantity": 1,
+                    "ItemID": 16923
+                },
+                {
+                    "ItemName": "Shard Of The Scale",
+                    "Quantity": 1,
+                    "ItemID": 17064
+                }
+            ]
+        },
+        {
+            "name": "Kiele",
+            "PriorityDKP": 6700,
+            "LotteryDKP": 2700,
+            "class": "Priest",
+            "Rank": "Core Raider",
+            "PriorityConfig": [
+                {
+                    "ItemName": "Cauterizing Band",
+                    "Quantity": 1,
+                    "ItemID": 19140
+                },
+                {
+                    "ItemName": "Leggings Of Transcendence",
+                    "Quantity": 1,
+                    "ItemID": 16922
+                }
+            ],
+            "LotteryConfig": [
+                {
+                    "ItemName": "Shard Of The Scale",
+                    "Quantity": 1,
+                    "ItemID": 17064
+                }
+            ]
+        },
+        {
+            "name": "Elphirt",
+            "PriorityDKP": 5275,
+            "LotteryDKP": 4275,
+            "class": "Priest",
+            "Rank": "Core Raider",
+            "PriorityConfig": [
+                {
+                    "ItemName": "Boots Of Pure Thought",
+                    "Quantity": 1,
+                    "ItemID": 19437
+                },
+                {
+                    "ItemName": "Cauterizing Band",
+                    "Quantity": 1,
+                    "ItemID": 19140
+                },
+                {
+                    "ItemName": "Empowered Leggings",
+                    "Quantity": 1,
+                    "ItemID": 19385
+                }
+            ],
+            "LotteryConfig": [
+                {
+                    "ItemName": "Band Of Sulfuras",
+                    "Quantity": 1,
+                    "ItemID": 19138
+                },
+                {
+                    "ItemName": "Bindings Of Transcendence",
+                    "Quantity": 1,
+                    "ItemID": 16926
+                },
+                {
+                    "ItemName": "Essence Gatherer",
+                    "Quantity": 1,
+                    "ItemID": 19435
+                },
+                {
+                    "ItemName": "Firemaw's Clutch",
+                    "Quantity": 1,
+                    "ItemID": 19400
+                },
+                {
+                    "ItemName": "Pauldrons Of Transcendence",
+                    "Quantity": 1,
+                    "ItemID": 16924
+                },
+                {
+                    "ItemName": "Pure Elementium Band",
+                    "Quantity": 1,
+                    "ItemID": 19382
+                },
+                {
+                    "ItemName": "Rejuvenating Gem",
+                    "Quantity": 1,
+                    "ItemID": 19395
+                },
+                {
+                    "ItemName": "Shroud Of Pure Thought",
+                    "Quantity": 1,
+                    "ItemID": 19430
+                }
+            ]
+        },
+        {
+            "name": "Cleekoh",
+            "PriorityDKP": 2225,
+            "LotteryDKP": 3225,
+            "class": "Priest",
+            "Rank": "Reserve Raider",
+            "PriorityConfig": [],
+            "LotteryConfig": []
+        },
+        {
+            "name": "Malchazor",
+            "PriorityDKP": 8200,
+            "LotteryDKP": 7200,
+            "class": "Paladin",
+            "Rank": "Core Raider",
+            "PriorityConfig": [
+                {
+                    "ItemName": "Rejuvenating Gem",
+                    "Quantity": 1,
+                    "ItemID": 19395
+                }
+            ],
+            "LotteryConfig": [
+                {
+                    "ItemName": "Boots Of Pure Thought",
+                    "Quantity": 1,
+                    "ItemID": 19437
+                },
+                {
+                    "ItemName": "Shroud Of Pure Thought",
+                    "Quantity": 1,
+                    "ItemID": 19430
+                }
+            ]
+        },
+        {
+            "name": "Anarra",
+            "PriorityDKP": 7575,
+            "LotteryDKP": 8575,
+            "class": "Paladin",
+            "Rank": "Core Raider",
+            "PriorityConfig": [],
+            "LotteryConfig": [
+                {
+                    "ItemName": "Choker Of The Firelord",
+                    "Quantity": 1,
+                    "ItemID": 18814
+                }
+            ]
+        },
+        {
+            "name": "Gillaen",
+            "PriorityDKP": 6275,
+            "LotteryDKP": 3275,
+            "class": "Paladin",
+            "Rank": "Core Raider",
+            "PriorityConfig": [
+                {
+                    "ItemName": "Chromatic Boots",
+                    "Quantity": 1,
+                    "ItemID": 19387
+                },
+                {
+                    "ItemName": "Head Of Nefarian",
+                    "Quantity": 1,
+                    "ItemID": 19003
+                },
+                {
+                    "ItemName": "Onslaught Girdle",
+                    "Quantity": 1,
+                    "ItemID": 19137
+                },
+                {
+                    "ItemName": "Wristguards Of True Flight",
+                    "Quantity": 1,
+                    "ItemID": 18812
+                }
+            ],
+            "LotteryConfig": [
+                {
+                    "ItemName": "Cloak Of The Shrouded Mists",
+                    "Quantity": 1,
+                    "ItemID": 17102
+                },
+                {
+                    "ItemName": "Judgement Breastplate",
+                    "Quantity": 1,
+                    "ItemID": 16958
+                },
+                {
+                    "ItemName": "Judgement Gauntlets",
+                    "Quantity": 1,
+                    "ItemID": 16956
+                },
+                {
+                    "ItemName": "Judgement Spaulders",
+                    "Quantity": 1,
+                    "ItemID": 16953
+                }
+            ]
+        },
+        {
+            "name": "Ashori",
+            "PriorityDKP": 5850,
+            "LotteryDKP": 850,
+            "class": "Paladin",
+            "Rank": "Core Raider",
+            "PriorityConfig": [
+                {
+                    "ItemName": "Lok'Amir Il Romathis",
+                    "Quantity": 1,
+                    "ItemID": 19360
+                },
+                {
+                    "ItemName": "Pure Elementium Band",
+                    "Quantity": 1,
+                    "ItemID": 19382
+                },
+                {
+                    "ItemName": "Rejuvenating Gem",
+                    "Quantity": 1,
+                    "ItemID": 19395
+                },
+                {
+                    "ItemName": "Robe Of Volatile Power",
+                    "Quantity": 1,
+                    "ItemID": 19145
+                }
+            ],
+            "LotteryConfig": [
+                {
+                    "ItemName": "Boots Of Pure Thought",
+                    "Quantity": 1,
+                    "ItemID": 19437
+                },
+                {
+                    "ItemName": "Cauterizing Band",
+                    "Quantity": 1,
+                    "ItemID": 19140
+                },
+                {
+                    "ItemName": "Choker Of The Firelord",
+                    "Quantity": 1,
+                    "ItemID": 18814
+                },
+                {
+                    "ItemName": "Empowered Leggings",
+                    "Quantity": 1,
+                    "ItemID": 19385
+                },
+                {
+                    "ItemName": "Mish'Undare",
+                    "Quantity": 1,
+                    "ItemID": 19375
+                },
+                {
+                    "ItemName": "Red Dragonscale Protector",
+                    "Quantity": 1,
+                    "ItemID": 19348
+                }
+            ]
+        },
+        {
+            "name": "Xhane",
+            "PriorityDKP": 1050,
+            "LotteryDKP": 50,
+            "class": "Paladin",
+            "Rank": "Core Raider",
+            "PriorityConfig": [
+                {
+                    "ItemName": "Lok'Amir Il Romathis",
+                    "Quantity": 1,
+                    "ItemID": 19360
+                }
+            ],
+            "LotteryConfig": [
+                {
+                    "ItemName": "Boots Of Pure Thought",
+                    "Quantity": 1,
+                    "ItemID": 19437
+                },
+                {
+                    "ItemName": "Empowered Leggings",
+                    "Quantity": 1,
+                    "ItemID": 19385
+                },
+                {
+                    "ItemName": "Red Dragonscale Protector",
+                    "Quantity": 1,
+                    "ItemID": 19348
+                },
+                {
+                    "ItemName": "Scrolls Of Blinding Light",
+                    "Quantity": 1,
+                    "ItemID": 19343
+                },
+                {
+                    "ItemName": "Wild Growth Spaulders",
+                    "Quantity": 1,
+                    "ItemID": 18810
+                }
+            ]
+        },
+        {
+            "name": "Iopo",
+            "PriorityDKP": 7975,
+            "LotteryDKP": 4975,
+            "class": "Hunter",
+            "Rank": "Core Raider",
+            "PriorityConfig": [],
+            "LotteryConfig": []
+        },
+        {
+            "name": "Rudolf",
+            "PriorityDKP": 7700,
+            "LotteryDKP": 6200,
+            "class": "Hunter",
+            "Rank": "Core Raider",
+            "PriorityConfig": [],
+            "LotteryConfig": [
+                {
+                    "ItemName": "Band Of Accuria",
+                    "Quantity": 1,
+                    "ItemID": 17063
+                },
+                {
+                    "ItemName": "Brutality Blade",
+                    "Quantity": 1,
+                    "ItemID": 18832
+                },
+                {
+                    "ItemName": "Cloak Of The Shrouded Mists",
+                    "Quantity": 1,
+                    "ItemID": 17102
+                },
+                {
+                    "ItemName": "Core Hound Tooth",
+                    "Quantity": 1,
+                    "ItemID": 18805
+                },
+                {
+                    "ItemName": "Dragonstalker's Belt",
+                    "Quantity": 1,
+                    "ItemID": 16936
+                },
+                {
+                    "ItemName": "Dragonstalker's Bracers",
+                    "Quantity": 1,
+                    "ItemID": 16935
+                },
+                {
+                    "ItemName": "Dragonstalker's Breastplate",
+                    "Quantity": 1,
+                    "ItemID": 16942
+                },
+                {
+                    "ItemName": "Dragonstalker's Gauntlets",
+                    "Quantity": 1,
+                    "ItemID": 16940
+                },
+                {
+                    "ItemName": "Dragonstalker's Greaves",
+                    "Quantity": 1,
+                    "ItemID": 16941
+                },
+                {
+                    "ItemName": "Dragonstalker's Legguards",
+                    "Quantity": 1,
+                    "ItemID": 16938
+                },
+                {
+                    "ItemName": "Dragonstalker's Spaulders",
+                    "Quantity": 1,
+                    "ItemID": 16937
+                }
+            ]
+        },
+        {
+            "name": "Aro",
+            "PriorityDKP": 6375,
+            "LotteryDKP": 5375,
+            "class": "Hunter",
+            "Rank": "Reserve Raider",
+            "PriorityConfig": [
+                {
+                    "ItemName": "Wristguards Of True Flight",
+                    "Quantity": 1,
+                    "ItemID": 18812
+                }
+            ],
+            "LotteryConfig": [
+                {
+                    "ItemName": "Brutality Blade",
+                    "Quantity": 1,
+                    "ItemID": 18832
+                },
+                {
+                    "ItemName": "Cloak Of The Shrouded Mists",
+                    "Quantity": 1,
+                    "ItemID": 17102
+                },
+                {
+                    "ItemName": "Core Hound Tooth",
+                    "Quantity": 1,
+                    "ItemID": 18805
+                },
+                {
+                    "ItemName": "Giantstalker's Breastplate",
+                    "Quantity": 1,
+                    "ItemID": 16845
+                },
+                {
+                    "ItemName": "Quick Strike Ring",
+                    "Quantity": 1,
+                    "ItemID": 18821
+                }
+            ]
+        },
+        {
+            "name": "Ellwindelm",
+            "PriorityDKP": 3725,
+            "LotteryDKP": 1225,
+            "class": "Hunter",
+            "Rank": "Reserve Raider",
+            "PriorityConfig": [
+                {
+                    "ItemName": "Cloak Of The Shrouded Mists",
+                    "Quantity": 1,
+                    "ItemID": 17102
+                },
+                {
+                    "ItemName": "Wristguards Of True Flight",
+                    "Quantity": 1,
+                    "ItemID": 18812
+                }
+            ],
+            "LotteryConfig": [
+                {
+                    "ItemName": "Giantstalker's Boots",
+                    "Quantity": 1,
+                    "ItemID": 16849
+                },
+                {
+                    "ItemName": "Giantstalker's Breastplate",
+                    "Quantity": 1,
+                    "ItemID": 16845
+                }
+            ]
+        },
+        {
+            "name": "Abstinence",
+            "PriorityDKP": 2500,
+            "LotteryDKP": 1500,
+            "class": "Hunter",
+            "Rank": "Reserve Raider",
+            "PriorityConfig": [],
+            "LotteryConfig": [
+                {
+                    "ItemName": "Brutality Blade",
+                    "Quantity": 1,
+                    "ItemID": 18832
+                },
+                {
+                    "ItemName": "Core Hound Tooth",
+                    "Quantity": 1,
+                    "ItemID": 18805
+                },
+                {
+                    "ItemName": "Dragonstalker's Belt",
+                    "Quantity": 1,
+                    "ItemID": 16936
+                },
+                {
+                    "ItemName": "Dragonstalker's Bracers",
+                    "Quantity": 1,
+                    "ItemID": 16935
+                },
+                {
+                    "ItemName": "Dragonstalker's Breastplate",
+                    "Quantity": 1,
+                    "ItemID": 16942
+                },
+                {
+                    "ItemName": "Dragonstalker's Gauntlets",
+                    "Quantity": 1,
+                    "ItemID": 16940
+                },
+                {
+                    "ItemName": "Dragonstalker's Greaves",
+                    "Quantity": 1,
+                    "ItemID": 16941
+                },
+                {
+                    "ItemName": "Dragonstalker's Legguards",
+                    "Quantity": 1,
+                    "ItemID": 16938
+                },
+                {
+                    "ItemName": "Dragonstalker's Spaulders",
+                    "Quantity": 1,
+                    "ItemID": 16937
+                },
+                {
+                    "ItemName": "Giantstalker's Boots",
+                    "Quantity": 1,
+                    "ItemID": 16849
+                },
+                {
+                    "ItemName": "Giantstalker's Breastplate",
+                    "Quantity": 1,
+                    "ItemID": 16845
+                },
+                {
+                    "ItemName": "Giantstalker's Leggings",
+                    "Quantity": 1,
+                    "ItemID": 16847
+                }
+            ]
+        },
+        {
+            "name": "Caelandine",
+            "PriorityDKP": 7850,
+            "LotteryDKP": 4850,
+            "class": "Druid",
+            "Rank": "Core Raider",
+            "PriorityConfig": [
+                {
+                    "ItemName": "Rejuvenating Gem",
+                    "Quantity": 1,
+                    "ItemID": 19395
+                }
+            ],
+            "LotteryConfig": [
+                {
+                    "ItemName": "Boots Of Pure Thought",
+                    "Quantity": 1,
+                    "ItemID": 19437
+                },
+                {
+                    "ItemName": "Cauterizing Band",
+                    "Quantity": 1,
+                    "ItemID": 19140
+                },
+                {
+                    "ItemName": "Choker Of Enlightenment",
+                    "Quantity": 1,
+                    "ItemID": 17109
+                },
+                {
+                    "ItemName": "Choker Of The Firelord",
+                    "Quantity": 1,
+                    "ItemID": 18814
+                },
+                {
+                    "ItemName": "Pure Elementium Band",
+                    "Quantity": 1,
+                    "ItemID": 19382
+                },
+                {
+                    "ItemName": "Shard Of The Scale",
+                    "Quantity": 1,
+                    "ItemID": 17064
+                },
+                {
+                    "ItemName": "Shroud Of Pure Thought",
+                    "Quantity": 1,
+                    "ItemID": 19430
+                },
+                {
+                    "ItemName": "Stormrage Chestguard",
+                    "Quantity": 1,
+                    "ItemID": 16897
+                }
+            ]
+        },
+        {
+            "name": "Pitunia",
+            "PriorityDKP": 5700,
+            "LotteryDKP": 3700,
+            "class": "Druid",
+            "Rank": "Reserve Raider",
+            "PriorityConfig": [
+                {
+                    "ItemName": "Band Of Accuria",
+                    "Quantity": 1,
+                    "ItemID": 17063
+                }
+            ],
+            "LotteryConfig": []
+        },
+        {
+            "name": "Dertysam",
+            "PriorityDKP": 2150,
+            "LotteryDKP": 2150,
+            "class": "Druid",
+            "Rank": "Core Raider",
+            "PriorityConfig": [
+                {
+                    "ItemName": "Claw Of Chromaggus",
+                    "Quantity": 1,
+                    "ItemID": 19347
+                },
+                {
+                    "ItemName": "Lok'Amir Il Romathis",
+                    "Quantity": 1,
+                    "ItemID": 19360
+                }
+            ],
+            "LotteryConfig": [
+                {
+                    "ItemName": "Heavy Dark Iron Ring",
+                    "Quantity": 1,
+                    "ItemID": 18879
+                }
+            ]
+        },
+        {
+            "name": "Sylador",
+            "PriorityDKP": 550,
+            "LotteryDKP": 550,
+            "class": "Druid",
+            "Rank": "Reserve Raider",
+            "PriorityConfig": [
+                {
+                    "ItemName": "Lok'Amir Il Romathis",
+                    "Quantity": 1,
+                    "ItemID": 19360
+                },
+                {
+                    "ItemName": "Pure Elementium Band",
+                    "Quantity": 1,
+                    "ItemID": 19382
+                },
+                {
+                    "ItemName": "Rejuvenating Gem",
+                    "Quantity": 1,
+                    "ItemID": 19395
+                }
+            ],
+            "LotteryConfig": [
+                {
+                    "ItemName": "Aurastone Hammer",
+                    "Quantity": 1,
+                    "ItemID": 17105
+                },
+                {
+                    "ItemName": "Boots Of Pure Thought",
+                    "Quantity": 1,
+                    "ItemID": 19437
+                },
+                {
+                    "ItemName": "Cauterizing Band",
+                    "Quantity": 1,
+                    "ItemID": 19140
+                },
+                {
+                    "ItemName": "Empowered Leggings",
+                    "Quantity": 1,
+                    "ItemID": 19385
+                },
+                {
+                    "ItemName": "Shard Of The Scale",
+                    "Quantity": 1,
+                    "ItemID": 17064
+                },
+                {
+                    "ItemName": "Shroud Of Pure Thought",
+                    "Quantity": 1,
+                    "ItemID": 19430
+                },
+                {
+                    "ItemName": "Stormrage Chestguard",
+                    "Quantity": 1,
+                    "ItemID": 16897
+                }
+            ]
+        }
+    ]
+}

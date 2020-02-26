@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>TnT Loot Config — There's No Tomorrow</title>
+    {% load static %}
+    <link rel="shortcut icon" type="image/x-icon" href="{% static 'images/favicon.ico'  %}" />
+    <link rel="stylesheet" href="{% static 'css/materialize.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/tnt-base.css' %}" />
+    <link href="https://fonts.googleapis.com/css?family=Oxygen:300,400|Sintony:400,700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript" src="{% static 'js/materialize.js' %}"></script>
+
+    <script>var whTooltips = { colorLinks: true, iconizeLinks: true, renameLinks: true };</script>
+    <script src="https://wow.zamimg.com/widgets/power.js"></script>
+
+    <!-- Template for javascript to display each raider card -->
+    <script id="hidden-template" type="text/x-custom-template">
+      <div class="tnt-raider">
+        <div class="card card-raider horizontal">
+          <div class="raider-info">
+          </div>
+          <div class="card-stacked">
+            <div class="row loot-config-lists card-content">
+              <div class="col l6 s12 priority-content">
+                <div class="row content-wrap">
+                  <div class="col priority-dkp 16">
+                    <div class="dkp-count priority-dkp-count">
+                      <div class="priority-dkp-value dkp-value"></div>
+                      <div class="dkp-label">DKP</div>
+                    </div>
+                  </div>
+                  <div class="col loot-config-list priority-list 16">
+                    <div class="loot-config-list-label">Priority</div>
+                    <div class="prio-list">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col l6 s12 lottery-content">
+                <div class="row content-wrap">
+                  <div class="col lottery-dkp 16">
+                    <div class="dkp-count lottery-dkp-count">
+                      <div class="lottery-dkp-value dkp-value"></div>
+                      <div class="dkp-label">DKP</div>
+                    </div>
+                  </div>
+                  <div class="col loot-config-list lottery-list 16">
+                    <div class="loot-config-list-label">Lottery</div>
+                    <div class="lott-list">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="global-nav container">
+            <div class="row">
+                <div class="col l1 s2">
+                    <div class="logo"></div>
+                </div>
+                <div class="col l11 s10">
+                    <nav class="main-nav">
+                        <a class="active" href="#">Loot Config</a>
+                        <a href="/dkp-system">DKP System Info</a>
+                        <a href="/faq">FAQ</a>
+                        <label class="right" for="darkmode">
+                            <input type="checkbox" onchange="checkMode()" id="darkmode"
+                                class="filled-in filter-darkmode" {{request.session.darkmode}}
+                                name="filter-darkmode" />
+                            <span style="color:white">DARK MODE</span>
+                        </label>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div><!-- end header -->
+
+    <div id="sh-loot-config" class="section section-header">
+        <div class="container">
+            <div class="row">
+                <div class="col l12">
+                    <h3 class="center-align">TNT Loot Configuration</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="main" class="section">
+        <div class="container">
+
+            <div class="row">
+                <div id="your-priority-list" class="col l12 m12 s12">
+                    <h4>DKP + Priority & Lottery Lists</h4>
+                    <p id="lastUpdated">Last Updated: </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col l12">
+                    <div class="filter-label">Filter by class: <a class="uncheck-all" href="#uncheck">Uncheck all</a> <a
+                            class="check-all" href="#check" checked="checked">Check all</a></div>
+                </div>
+            </div>
+
+            <div id="filter-by-class" class="row">
+                <form>
+                    <div class="col l2">
+                        <p><label>
+                                <input type="checkbox" onchange="filterByClass()" id="filter-warrior"
+                                    class="filled-in filter-class-warrior" name="filter-class-warrior" />
+                                <span>Warrior</span>
+                            </label></p>
+                        <p>
+                            <label>
+                                <input type="checkbox" onchange="filterByClass()" id="filter-rogue"
+                                    class="filled-in filter-class-rogue" name="filter-class-rogue" />
+                                <span>Rogue</span>
+                            </label>
+                        </p>
+                    </div>
+                    <div class="col l2">
+                        <p><label>
+                                <input type="checkbox" onchange="filterByClass()" id="filter-mage"
+                                    class="filled-in filter-class-mage" name="filter-class-mage" />
+                                <span>Mage</span>
+                            </label></p>
+                        <p>
+                            <label>
+                                <input type="checkbox" onchange="filterByClass()" id="filter-warlock"
+                                    class="filled-in filter-class-warlock" name="filter-class-warlock" />
+                                <span>Warlock</span>
+                            </label>
+                        </p>
+                    </div>
+                    <div class="col l2">
+                        <p><label>
+                                <input type="checkbox" onchange="filterByClass()" id="filter-priest"
+                                    class="filled-in filter-class-priest" name="filter-class-priest" />
+                                <span>Priest</span>
+                            </label></p>
+                        <p>
+                            <label>
+                                <input type="checkbox" onchange="filterByClass()" id="filter-paladin"
+                                    class="filled-in filter-class-paladin" name="filter-class-paladin" />
+                                <span>Paladin</span>
+                            </label>
+                        </p>
+                    </div>
+                    <div class="col l2">
+                        <p><label>
+                                <input type="checkbox" onchange="filterByClass()" id="filter-hunter"
+                                    class="filled-in filter-class-hunter" name="filter-class-hunter" />
+                                <span>Hunter</span>
+                            </label></p>
+                        <p>
+                            <label>
+                                <input type="checkbox" onchange="filterByClass()" id="filter-druid"
+                                    class="filled-in filter-class-druid" name="filter-class-druid" />
+                                <span>Druid</span>
+                            </label>
+                        </p>
+                    </div>
+                </form>
+            </div>
+
+            <div class="row">
+                <div id="raider-list" class="col l12 m12 s12">
+                </div>
+            </div>
+
+        </div><!-- end container -->
+    </div><!-- end section -->
+
+    <footer class="page-footer">
+        <div class="footer-copyright">
+            <div class="container">
+                © 2020 There's No Tomorrow
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="{% static 'js/loot-config.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/tnt-js.js' %}"></script>
+</body>
+
+</html>

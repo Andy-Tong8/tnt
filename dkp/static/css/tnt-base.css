@@ -1,0 +1,384 @@
+/* CSS Document */
+/* Adjustment to Materialize*/
+.row {
+    margin-bottom: 0;
+}
+p {
+    line-height: 26px;
+    color: #666666;
+}
+.tabs .tab a:hover,
+.tabs .tab a.active {
+    border-bottom: 3px solid #67d9f2;
+}
+.ul li,
+ul:not(.browser-default) > li {
+    list-style-type: disc;
+    margin-left: 50px;
+}
+
+p strong {
+    font-weight: bold;
+}
+
+ul ul {
+    margin-left: 20px;
+}
+
+#header,
+nav.main-nav {
+    background-color: #000;
+}
+#header .logo {
+    background-image: url("../images/logo_tnt_62x62.png");
+    background-size: cover;
+    width: 62px;
+    height: 62px;
+    margin-top: 22px;
+}
+#header nav a {
+    font-family: "Oxygen", sans-serif;
+}
+#header nav.main-nav a {
+    margin-right: 30px;
+    font-size: 14px;
+    text-transform: uppercase;
+    display: inline;
+}
+#header nav a.active {
+    color: #67d9f2;
+}
+.user-nav {
+    height: 106px;
+    color: #fff;
+    font-family: "Oxygen", sans-serif;
+}
+.user-nav .nav-user {
+    line-height: 16px;
+    width: 150px;
+}
+.user-nav a.username {
+    color: #fff;
+    line-height: 16px;
+    display: inline;
+}
+.user-nav .guild-rank {
+    color: #d7d7d7;
+    font-size: 9px;
+    text-transform: uppercase; /*padding:0 15px;*/
+}
+#darkmode * {
+    color: #fff;
+}
+.section-header {
+    background: radial-gradient(45.03% 33244.57% at 52.6% 100%, #8b2d71 0%, #0d2e3c 100%);
+    height: 275px;
+    color: #fff;
+}
+
+/* .section {
+    background-color: #fff;
+} */
+#sh-loot-config {
+    position: relative;
+    padding-top: 75px;
+}
+#sh-loot-config .tabs {
+    position: absolute;
+    bottom: 0;
+}
+
+.filter-label {
+    text-transform: uppercase;
+    color: #929292;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.filter-label a.uncheck-all,
+.filter-label a.check-all {
+    text-transform: capitalize;
+    margin-left: 8px;
+    color: #888888;
+    border-bottom: 1px solid #dbdbdb;
+    padding-bottom: 1px;
+}
+#filter-by-class {
+    margin-bottom: 20px;
+}
+#filter-by-class p {
+    margin: 10px 0 0 0;
+}
+
+.loot-item-card .text-wrap {
+    width: 95%;
+}
+.loot-item-card .card-image {
+    padding: 8px;
+}
+.loot-item-card .card-content {
+    padding: 0px 10px;
+}
+.loot-item-card .item-content {
+    display: flex;
+}
+.loot-item-card h6.item-name {
+    font-family: "Sintony", sans-serif;
+    font-weight: 700;
+    color: #701672;
+    margin: 1rem 0 0.2rem 0;
+}
+.loot-item-card .item-desc {
+    font-size: 14px;
+    color: #5e5e5e;
+}
+.loot-item-card .card-utility {
+    width: 8%;
+    margin-top: 1.5em;
+}
+.loot-item-card .card-utility .icon-close {
+    transform: rotate(45deg);
+    color: #b5b5b5;
+}
+
+.card-raider {
+    flex-flow: row wrap;
+}
+.card-raider .raider-info {
+    padding: 30px;
+    width: 20%;
+}
+
+/*Old Classes */
+.card-raider.class-warrior .raider-info {
+    background-color: #c79c6e;
+}
+.card-raider.class-priest .raider-info {
+    background-color: #f6f6f6;
+}
+.card-raider.class-druid .raider-info {
+    background-color: #ec9c55;
+}
+.card-raider.class-hunter .raider-info {
+    background-color: #a9d271;
+}
+.card-raider.class-rogue .raider-info {
+    background-color: #fffcd1;
+}
+.card-raider.class-mage .raider-info {
+    background-color: #40c7eb;
+}
+.card-raider.class-warlock .raider-info {
+    background-color: #6e6eb3;
+}
+.card-raider.class-paladin .raider-info {
+    background-color: #de8cb0;
+}
+
+.card-raider .raider-info.Warrior {
+    background-color: #c79c6e;
+}
+.card-raider .raider-info.Priest {
+    background-color: #f6f6f6;
+}
+.card-raider .raider-info.Druid {
+    background-color: #ec9c55;
+}
+.card-raider .raider-info.Hunter {
+    background-color: #a9d271;
+}
+.card-raider .raider-info.Rogue {
+    background-color: #fffcd1;
+}
+.card-raider .raider-info.Mage {
+    background-color: #40c7eb;
+}
+.card-raider .raider-info.Warlock {
+    background-color: #62628e;
+}
+.card-raider .raider-info.Paladin {
+    background-color: #de8cb0;
+}
+
+.card-raider .raider-info,
+.card-raider .raider-info p {
+    color: #fff;
+}
+
+.card-raider.class-rogue .raider-info,
+.card-raider.class-rogue .raider-info p,
+.card-raider.class-priest .raider-info,
+.card-raider.class-priest .raider-info p {
+    color: #3c3c3c;
+}
+
+.card-raider .raider-info.Rogue,
+.card-raider .raider-info.Rogue p,
+.card-raider .raider-info.Priest,
+.card-raider .raider-info.Priest p {
+    color: #3c3c3c;
+}
+
+.card-raider .raider-info .raider-name {
+    font-size: 20px;
+    font-weight: 700;
+}
+.card-raider .raider-info .raider-class {
+    font-size: 14px;
+}
+.card-raider .raider-info .raider-rank {
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-top: 90px;
+}
+
+.loot-config-lists .dkp-count {
+    border: 1px #d6cccc solid;
+    width: 70px;
+    color: #74658d;
+    font-weight: 700;
+    text-align: center;
+    padding: 8px;
+}
+.loot-config-lists .dkp-label {
+    font-size: 11px;
+    color: #4e4e4e;
+}
+
+.loot-config-list .loot-config-list-label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+    text-transform: uppercase;
+}
+.loot-config-list ol {
+    padding-inline-start: 20px;
+    color: #9c9c9c;
+    font-size: 14px;
+    margin-top: 8px;
+}
+.loot-config-list ol li {
+    counter-increment: list;
+    list-style-type: none;
+    position: relative;
+}
+.loot-config-list ol li:before {
+    color: #9c9c9c;
+    content: counter(list) ".";
+    left: -32px;
+    position: absolute;
+    text-align: right;
+    width: 26px;
+}
+.loot-config-list ol li {
+    padding-left: 8px;
+    padding-bottom: 2px;
+    color: #000;
+}
+
+.page-footer {
+    min-height: 90px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: black;
+}
+.page-footer .footer-copyright {
+    background-color: black;
+}
+
+// Dark Mode styles
+div.dark-mode * {
+    background-color: black !important;
+}
+.section.dark-mode {
+    background-color: black !important;
+}
+/* .container.dark-mode {
+    background-color: black;
+} */
+.card-stacked.dark-mode {
+    background-color: #272729;
+}
+.dark-mode.loot-config-list .loot-config-list-label {
+    color: white;
+}
+.dark-mode.dkp-count * {
+    color: white;
+}
+.dark-mode h4,
+.dark-mode p,
+.dark-mode label,
+.dark-mode li {
+    color: white;
+}
+.dark-header {
+    background: radial-gradient(45.03% 33244.57% at 52.6% 100%, #0d2e3c 0%, #000000 100%);
+    height: 275px;
+    color: #fff;
+}
+
+.filled-in[type="checkbox"].filled-in:checked + span:not(.lever):after {
+    border: 2px solid #1e95af;
+    background-color: #1e95af;
+}
+
+//responsive settings
+@media all and (max-width: 1200px) {
+    .card-raider .raider-info {
+        padding: 20px;
+    }
+    .loot-config-list {
+        max-width: 70%;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media all and (max-width: 993px) {
+    .lottery-content {
+        margin-top: 20px;
+    }
+    .container {
+        width: 90%;
+    }
+    .loot-config-list {
+        max-width: 70%;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .card-raider .raider-info {
+        padding: 20px;
+    }
+}
+
+@media all and (max-width: 800px) {
+    .card-raider .raider-info {
+        padding: 20px;
+        width: 100%;
+    }
+    .card-raider .raider-info .raider-rank {
+        margin-top: 0px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    #header .logo {
+        width: 50px;
+        height: 50px;
+        margin: 14px 0px;
+    }
+    .main-nav {
+        margin-top: 10px;
+        height: auto;
+    }
+    .lottery-content {
+        margin-top: 20px;
+    }
+    .loot-config-list {
+        max-width: 64%;
+    }
+}
